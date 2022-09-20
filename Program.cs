@@ -13,7 +13,7 @@ public class cardHolder {
         this.cardNum = cardNum;
         this.pin = pin;
         this.firstName = firstName;
-        this.lastName = lastName
+        this.lastName = lastName;
         this.balance = balance;
     }
 
@@ -74,7 +74,7 @@ public class cardHolder {
         void deposit(cardHolder currentUser) {
             Console.WriteLine("How much to deposit? ");
             double deposit = Double.Parse(Console.ReadLine());
-            currentUser.setBalance(deposit + balance);
+            currentUser.setBalance(currentUser.getBalance() + deposit);
             Console.WriteLine("Thanks for depositing. Your new balance is: " + currentUser.getBalance);
         }
 
@@ -88,7 +88,7 @@ public class cardHolder {
             }
             else {
                 currentUser.setBalance(currentUser.getBalance() - withdrawal);
-                Console.WriteLine("Thank you. You're good to go")
+                Console.WriteLine("Thank you. You're good to go");
             }
         }
 
@@ -113,9 +113,9 @@ public class cardHolder {
 
         while(true) {
             try {
-                debitCardNum = Console.ReadLine
+                debitCardNum = Console.ReadLine();
                 // Check against our db
-                currentUser = cardHolders.FirstOrDefault(a => a.cardNum === debitCardNum);
+                currentUser = cardHolders.FirstOrDefault(a => a.cardNum == debitCardNum);
                 if (currentUser != null) {
                     break;
                 }
@@ -139,11 +139,11 @@ public class cardHolder {
                     break;
                 } 
                 else {
-                    Console.WriteLine("Incorrect pin. Please try again.")
+                    Console.WriteLine("Incorrect pin. Please try again.");
                 }
         }
             catch {
-                Console.WriteLine("Incorrect pin. Please try again.")
+                Console.WriteLine("Incorrect pin. Please try again.");
         } 
         }
 
@@ -153,7 +153,7 @@ public class cardHolder {
         do {
             printOptions();
             try {
-                option = int.Parse(Console.Readline());
+                option = int.Parse(Console.ReadLine());
             }
             catch {
                 if (option == 1) {
@@ -171,7 +171,7 @@ public class cardHolder {
             }
         }
         while (option != 4);
-        Console.WriteLine("Thank you. Have a nice day!")
+        Console.WriteLine("Thank you. Have a nice day!");
     }
 
 }
