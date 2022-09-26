@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/savon-h/Desktop/AtmApp/AtmApp.csproj": {}
+    "/Users/savon-h/Desktop/CSharp/AtmApp/AtmApp.csproj": {}
   },
   "projects": {
-    "/Users/savon-h/Desktop/AtmApp/AtmApp.csproj": {
+    "/Users/savon-h/Desktop/CSharp/AtmApp/AtmApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/savon-h/Desktop/AtmApp/AtmApp.csproj",
+        "projectUniqueName": "/Users/savon-h/Desktop/CSharp/AtmApp/AtmApp.csproj",
         "projectName": "AtmApp",
-        "projectPath": "/Users/savon-h/Desktop/AtmApp/AtmApp.csproj",
+        "projectPath": "/Users/savon-h/Desktop/CSharp/AtmApp/AtmApp.csproj",
         "packagesPath": "/Users/savon-h/.nuget/packages/",
-        "outputPath": "/Users/savon-h/Desktop/AtmApp/obj/",
+        "outputPath": "/Users/savon-h/Desktop/CSharp/AtmApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/savon-h/.nuget/NuGet/NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

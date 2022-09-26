@@ -165,6 +165,9 @@ public class cardHolder {
                 else if (option == 3) {
                     balance(currentUser);
                 }
+                else if (option == 4) {
+                    break;
+                }
                 else {
                     option = 0;
                 }

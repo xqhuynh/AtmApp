@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6vzYEYecdqLtUcHiWGbf9vyajjhgrr3dQvCNQzC0BTC1ENlJizqxQo4iRoYn64Nbb6uV+jmj8ZCBwOHtZXURiQ==",
+  "dgSpecHash": "vc8sCx+nAHCC3IF2F2CNQJEDfj3SkCXg7eOmkm655o8VEa36hHziRJtK8xp1X6Th0SH13XIokbz74XZUxsGEhQ==",
   "success": true,
-  "projectFilePath": "/Users/savon-h/Desktop/AtmApp/AtmApp.csproj",
+  "projectFilePath": "/Users/savon-h/Desktop/CSharp/AtmApp/AtmApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
